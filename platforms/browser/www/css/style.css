@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One);
+/* Defaults */
+html, body, #quizzie {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/q_bg.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #c2a671;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 4.3vw;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2vw;
+  font-weight:300;
+  margin: 0 0 0 3px !important;
+}
+
+h1, h2 {
+  display: block;
+  width: auto;
+  margin: 0%;
+}
+
+p {
+  display: block;
+  width: auto;
+  margin: 2% 4% 2% 4%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2vw;
+}
+
+.line {
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+  margin-bottom: 12px;
+}
+
+#banner {
+  margin: auto;
+  width: 38%;
+}
+
+.beer {
+  width: 100%;
+  height: auto;
+}
+
+#beer01 {
+ width: 25%;
+ height: auto;
+ margin: 5% 0 0 0;
+ float: left;
+}
+
+#beer02 {
+  right: 0px;
+  width: 25%;
+  height: auto;
+  margin: 15% 0 0 0;
+  float: right;
+}
+
+#quizzie {
+  padding: 5% 0;
+  /* Individual Steps/Sections */
+  /* Content */
+}
+#quizzie ul {
+  list-style: none;
+  display: block;
+  width: auto;
+  margin: 2% 2%;
+  padding: 6% 20% 2% 20%;
+  overflow: auto;
+  display: none;
+  /* Step Questions and Answer Options */
+}
+#quizzie ul.current {
+  display: block;
+}
+#quizzie ul li {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+#quizzie ul li.quiz-answer {
+  cursor: pointer;
+}
+#quizzie ul li.question, #quizzie ul li.results-inner {
+  display: block;
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+#quizzie ul li.results-inner {
+  padding: 5% 2%;
+}
+#quizzie ul li.results-inner img {
+  width: 250px;
+}
+#quizzie ul li:last-child {
+  margin-right: 0;
+}
+#quizzie .question-wrap, #quizzie .answer-wrap {
+  display: block;
+  padding: 1%;
+  margin: 1%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#quizzie .answer-wrap {
+  background: #4b2619;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+#quizzie .answer-wrap:hover {
+  background: #fff;
+  color: #4b2619;
+}

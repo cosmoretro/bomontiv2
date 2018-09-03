@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <title>Kendi Biranı Seç</title>
       <link rel="stylesheet" href="css/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
   <div id="quizzie">
 
     <ul class="quiz-step step1 current">
+
         <li class="question">
             <div class="question-wrap">
                 <h1>SORU 1</h1>
@@ -35,11 +37,15 @@
                 <p class="answer-text">YENİ YERLER KEŞFETMEK</p>
             </div>
         </li>
+        <div class="q01_a"><img class="float" src="img/q01_a.png"></div>
+        <div class="q01_b"><img class="float" src="img/q01_b.png"></div>
     </ul>
 
     <ul class="quiz-step step2">
         <li class="question">
             <div class="question-wrap">
+              <h1>SORU 2</h1>
+              <div class="line"></div>
                 <h2>İŞ/DERS ÇIKIŞI NE YAPMAKTAN HOŞLANIRSIN?</h2>
             </div>
         </li>
@@ -58,11 +64,14 @@
                 <p class="answer-text">DAHA ÖNCE DENEYİMLEDİĞİM BİR YEMEĞİ DENEMEK</p>
             </div>
         </li>
+        <div class="q02_a"><img class="float" src="img/q02_a.png"></div>
     </ul>
 
     <ul class="quiz-step step3">
         <li class="question">
             <div class="question-wrap">
+              <h1>SORU 3</h1>
+              <div class="line"></div>
                 <h2>KONSERİN EN CAN ALICI NOKTASI SENCE HANGİSİ?</h2>
             </div>
         </li>
@@ -81,11 +90,15 @@
                 <p class="answer-text">SAHNEYİ UZAKTAN SAKİN VE KONFORLU BİR YERDEN İZLEDİĞİM HER AN</p>
             </div>
         </li>
+        <div class="q03_a"><img class="float" src="img/q03_a.png"></div>
+        <div class="q03_b"><img class="float" src="img/q03_b.png"></div>
     </ul>
 
     <ul class="quiz-step step4">
         <li class="question">
             <div class="question-wrap">
+              <h1>SORU 4</h1>
+              <div class="line"></div>
                 <h2>HANGİ TARZ FİLMLERİ İZLEMEKTEN KEYİF ALIRSIN?</h2>
             </div>
         </li>
@@ -104,12 +117,15 @@
                 <p class="answer-text">YABANCI KÜLT FİLMLER</p>
             </div>
         </li>
+        <div class="q04_a"><img class="float" src="img/q04_a.png"></div>
     </ul>
 
     <ul class="quiz-step step5">
         <li class="question">
             <div class="question-wrap">
-                <h2>GARDIROBUNUN OLMAZSA OLMAZI NEDİR?</h2>
+              <h1>SORU 5</h1>
+              <div class="line"></div>
+                <h2>GARDIROBUNUN OLMAZSA<br> OLMAZI NEDİR?</h2>
             </div>
         </li>
         <li class="quiz-answer low-value" data-quizIndex="2">
@@ -127,15 +143,14 @@
                 <p class="answer-text">SON YURT DIŞI SEYAHATİMDE ALDIĞIM T-SHIRT</p>
             </div>
         </li>
+        <div class="q05_a"><img class="float" src="img/q05_a.png"></div>
     </ul>
 
 
 
-    <ul id="results">
+    <ul id="results" style="padding-top: 10%;">
         <li class="results-inner">
-            <p>Your result is:</p>
-            <h1></h1>
-            <p class="desc"></p>
+            <p class="desc" style="margin: 0%;"></p>
         </li>
     </ul>
 </div>

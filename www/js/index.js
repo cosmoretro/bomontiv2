@@ -1,9 +1,9 @@
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
-    {   title: 'Malt Birasın',
-        desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/tXTjD9k.jpg"/>'},
-    {   title: 'Filtresiz Birasın',
-        desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/dipkE0v.jpg"/>'},
+    {   title: '',
+        desc: '<img class="final" src="img/f_malt.png">'},
+    {   title: '',
+        desc: '<img class="final" src="img/f_filtresiz.png">'},
     {   title: 'Black & Red Ale Birasın',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/WXox0Yv.jpg"/>'},
     {   title: 'Bomonti Birasın',

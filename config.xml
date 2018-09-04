@@ -39,7 +39,7 @@
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
-    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
         <preference name="StatusBarBackgroundColor" value="#c2a671" />
         <preference name="StatusBarStyle" value="lightcontent" />
       <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />

@@ -8,7 +8,7 @@
         Tersane
     </author>
     <content src="index.html" />
-    <preference name="orientation" value="portrait" />
+    <preference name="orientation" value="landscape" />
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
     <platform name="ios">

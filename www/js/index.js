@@ -1,11 +1,11 @@
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
     {   title: '',
-        desc: '<img class="final" src="img/f_malt.png">'},
+        desc: '<a href="questions.html"><img class="final" src="img/f_malt.png"></a>'},
     {   title: '',
-        desc: '<img class="final" src="img/f_filtresiz.png">'},
+        desc: '<a href="questions.html"><img class="final" src="img/f_filtresiz.png"></a>'},
     {   title: 'Black & Red Ale Birasın',
-        desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/WXox0Yv.jpg"/>'},
+        desc: '<div style="margin-left:60px; margin-top:90px;"><a href="black.html"><img src="img/irlanda.png" width="225"></a><a href="red.html"><img src="img/ingiltere.png"></a></div>'},
     {   title: 'Bomonti Birasın',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/NH5cunw.png"/>'}
 ];
